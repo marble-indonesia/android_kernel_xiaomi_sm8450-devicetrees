@@ -543,7 +543,7 @@
 	fingerprint_goodix {
                status = "ok";
                compatible = "goodix,fingerprint";
-               vdda-supply = <&L3C>;
+               l11c_vdd-supply = <&L3C>;
                goodix,gpio-reset = <&tlmm 141 0x0>;
                goodix,gpio-irq = <&tlmm 43 0x0>;
        };
